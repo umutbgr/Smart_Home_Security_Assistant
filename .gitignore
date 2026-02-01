@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- Project Specific (Smart Home Assistant) ---
+
+# Firebase credentials
+*firebase*.json
+*serviceAccount*.json
+firebase-debug.log
+.firebase/
+
+# Face recognition models and data
+*.dat
+*.pkl
+
+# Audio files
+*.wav
+*.mp3
+
